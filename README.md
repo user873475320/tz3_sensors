@@ -1,12 +1,12 @@
-REST API сервис, который принимает данные от
-"сенсора" и сохраняет их в БД. Также можно получить эти данные из БД.
+The REST API is a service that receives data from
+the "sensor" and stores it in the database. You can also get this data from the database.
 
-Всего в приложении имеется 4 адреса:
-1. Регистрация сенсора.
-2. Добавление измерения от сенсора.
-3. Получение всех измерений.
-4. Получение количества дождливых дней.
+There are 4 addresses in total in the application:
+1. Sensor registration.
+2. Adding a measurement from the sensor.
+3. Getting all the measurements.
+4. Getting the number of rainy days.
 
-Приложение делится на 2 части:
-1. REST API приложения.
-2. Java клиент, который отправляет данные на REST API приложение - с помощью класса RestTemplate.
+The application is divided into 2 parts:
+1. The REST API of the application.
+2. Java client that sends data to the REST API application - using the RestTemplate class.
